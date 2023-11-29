@@ -18,6 +18,10 @@ O tema selecionado para este projeto foi a "Otimização da Atribuição de Clie
 
 ## 👾Compilação e execução
 
+### Dados:
+
+- Para incluir os dados destinados à otimização, simplesmente coloque-os dentro da pasta "Data" e ajuste os nomes no código, conforme indicado nos comentários das linhas 8, 18, 19, 20 e 21 do código.
+
 ### Execução Local:
 
 - O projeto é implementado em Python, portanto, é necessário ter o Python instalado no sistema operacional;

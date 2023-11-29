@@ -15,10 +15,10 @@ def read_csv(filename):
     return data
 
 # Carregar os dados dos arquivos CSV
-antenas_data = read_csv('data/Antenas.csv')
-clientes_data = read_csv('data/Clientes.csv')
-conexoes_data = read_csv('data/ConexoesPossiveis.csv')
-conexoesAnt_data = read_csv('data/ConexoesAnteriores.csv')
+antenas_data = read_csv('Data/Antenas.csv') #Arquivo contendo as antenas e suas respectivas capacidades
+clientes_data = read_csv('Data/Clientes.csv') #Arquivo contendo os clientes e seus respectivos planos de internet contratados
+conexoes_data = read_csv('Data/ConexoesPossiveis.csv') #Arquivo contendo todas as conexões possíveis entre cliente e antena
+conexoesAnt_data = read_csv('Data/ConexoesAnteriores.csv') #Arquivo contendo as conexões preestabelecidas
 
 #------------------------------------------------------------------------------------------------------------------------------------------------
 
