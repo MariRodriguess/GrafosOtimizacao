@@ -1,5 +1,7 @@
+# Módulo que precisa ser importado para a leitura dos arquivos CSV:
 import csv
-import networkx as nx
+# Bibliotecas que precisam ser instaladas e importadas:
+import networkx as nx                  
 import matplotlib.pyplot as plt
 import numpy as np
 

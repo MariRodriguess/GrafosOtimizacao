@@ -9,24 +9,36 @@
 </div>
 
 
-## 📌Trabalho acadêmico
-
+## 📌Trabalho Acadêmico
 
 Este projeto acadêmico foi apresentado durante a disciplina de Algoritmos e Estruturas de Dados II, com o propósito de explorar a aplicabilidade da teoria dos grafos na resolução de problemas abrangentes em diversas áreas e disciplinas. Cada aluno foi desafiado a identificar um problema específico suscetível de modelagem por meio de um grafo, propondo e aplicando algoritmos adequados para abordar uma questão de pesquisa relacionada ao problema escolhido.
 
-O tema selecionado para este projeto foi a "Otimização da Atribuição de Clientes em Redes de Internet via Rádio na Zona Rural: Uma Abordagem Eficiente com Teoria dos Grafos e Fluxo Máximo". Optou-se pela linguagem de programação Python devido às suas excelentes bibliotecas que facilitam a manipulação de grafos e a aplicação do algoritmo de fluxo máximo. Detalhes sobre a contextualização e desenvolvimento do problema podem ser encontrados no artigo elaborado para a disciplina, disponível na pasta "Artigo".
+O tema selecionado para este projeto foi a "Otimização da Atribuição de Clientes em Redes de Internet via Rádio na Zona Rural: Uma Abordagem Eficiente com Teoria dos Grafos e Fluxo Máximo". Optou-se pela linguagem de programação Python devido às suas excelentes bibliotecas que facilitam a manipulação de grafos e a aplicação do algoritmo de fluxo máximo. 
+ 
+Este trabalho visa identificar e estabelecer conexões eficientes entre clientes e antenas, determinando a antena à qual cada cliente deve se conectar para obter o maior fluxo de internet via rádio possível. Adicionalmente, o projeto permite a obtenção de informações como gargalos e mau uso de antenas. Para alcançar esse objetivo, é necessário coletar dados, tais como todas as conexões possíveis entre clientes e antenas, o sinal dessas conexões, os planos de internet de cada cliente e a capacidade de cada antena.
 
-## 👾Compilação e execução
+## 🖥️ Exemplos de Funcionamento do Código, com Imagens de Grafos:
+
+#### ➡️Grafo com Todas as Conexões Possíveis entre Cliente e Antena:
+<img src="Imgs/Antes_FluxoMaximo.png" width="800" height="810">
+<br><br>
+
+#### ➡️Grafo Após a Aplicação do Algoritmo de Fluxo Máximo, com as Melhores Conexões Possíveis para Cada Cliente:
+<img src="Imgs/Pos_FluxoMaximo.png" width="800" height="810">
+<br><br>
+
+
+## 👾Compilação e Execução
 
 ### Dados:
 
-- Para incluir os dados destinados à otimização, simplesmente coloque-os dentro da pasta "Data" e ajuste os nomes no código, conforme indicado nos comentários das linhas 8, 18, 19, 20 e 21 do código.
+- Para incluir os dados destinados à otimização, simplesmente coloque-os dentro da pasta "data" e ajuste os nomes no código, conforme indicado nos comentários das linhas 20, 21, 22 e 23 do código.
 
 ### Execução Local:
 
 - O projeto é implementado em Python, portanto, é necessário ter o Python instalado no sistema operacional;
 - Pode ser executado em diferentes sistemas operacionais, incluindo Linux e Windows;
-- Instale as bibliotecas informadas no artigo usando o seguinte comando no terminal ou prompt de comando: pip install biblioteca. Substitua "biblioteca" pelo nome da biblioteca em questão;
+- Instale as bibliotecas informadas nas linhas 4,5 e 6 do código usando o seguinte comando no terminal ou prompt de comando: pip install biblioteca. Substitua "biblioteca" pelo nome da biblioteca em questão;
 - Navegue até o diretório do projeto no terminal ou prompt de comando;
 - Execute o projeto com o seguinte comando: python maximumFlow.py .
 
