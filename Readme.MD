@@ -17,7 +17,7 @@ O tema selecionado para este projeto foi a "Otimização da Atribuição de Clie
  
 Este trabalho visa identificar e estabelecer conexões eficientes entre clientes e antenas, determinando a antena à qual cada cliente deve se conectar para obter o maior fluxo de internet via rádio possível. Adicionalmente, o projeto permite a obtenção de informações como gargalos e mau uso de antenas. Para alcançar esse objetivo, é necessário coletar dados, tais como todas as conexões possíveis entre clientes e antenas, o sinal dessas conexões, os planos de internet de cada cliente e a capacidade de cada antena.
 
-## 🖥️ Exemplos de Funcionamento do Código, com Imagens de Grafos:
+## 🖥️ Exemplos dos Grafos Construídos Com o Código:
 
 #### ➡️Grafo com Todas as Conexões Possíveis entre Cliente e Antena:
 <img src="Imgs/Antes_FluxoMaximo.png" width="800" height="810">
@@ -41,7 +41,7 @@ Este trabalho visa identificar e estabelecer conexões eficientes entre clientes
 - Instale as bibliotecas informadas nas linhas 4,5 e 6 do código usando o seguinte comando no terminal ou prompt de comando: pip install biblioteca. Substitua "biblioteca" pelo nome da biblioteca em questão;
 - Navegue até o diretório do projeto no terminal ou prompt de comando;
 - Execute o projeto com o seguinte comando: python maximumFlow.py;
-- Utilizando o código com os dados disponibilizados do trabalho, será gerado três imagens com os grafos resultantes. Cada um deles inclui as mesmas conexoes origem→cliente e antena→destino, uma vez que se referem aos mesmos dados. No entanto, cada grafo possui configuraçoes distintas nas conexões cliente→antena: a Figura 1 mostra todas as conexoes efetivas nas quais os clientes foram associados de forma manual, a Figura 2 abrange todas as possibilidades de conexão, e a Figura 3 representa o grafo resultante após a aplicação do algoritmo de fluxo máximo. Após a geração de cada imagem, é necessário fechá-la (é possível salvar a imagem antes de fechar), e as próximas serão geradas até a conclusão da execução do código.
+- Utilizando o código com os dados disponibilizados do trabalho, será gerado três imagens com os grafos resultantes. Cada um deles inclui as mesmas conexões origem→cliente e antena→destino, uma vez que se referem aos mesmos dados. No entanto, cada grafo possui configurações distintas nas conexões cliente→antena: a Figura 1 mostra todas as conexões efetivas nas quais os clientes foram associados de forma manual, a Figura 2 abrange todas as possibilidades de conexão, e a Figura 3 representa o grafo resultante após a aplicação do algoritmo de fluxo máximo. Após a geração de cada imagem, é necessário fechá-la (é possível salvar a imagem antes de fechar), e as próximas serão geradas até a conclusão da execução do código.
 
 ### Execução no Google Colab:
 
