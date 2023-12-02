@@ -36,11 +36,12 @@ Este trabalho visa identificar e estabelecer conexões eficientes entre clientes
 
 ### Execução Local:
 
-- O projeto é implementado em Python, portanto, é necessário ter o Python instalado no sistema operacional;
+- O projeto é implementado em Python nas versão 3.12.0, portanto, é necessário ter esse Python instalado no sistema operacional;
 - Pode ser executado em diferentes sistemas operacionais, incluindo Linux e Windows;
 - Instale as bibliotecas informadas nas linhas 4,5 e 6 do código usando o seguinte comando no terminal ou prompt de comando: pip install biblioteca. Substitua "biblioteca" pelo nome da biblioteca em questão;
 - Navegue até o diretório do projeto no terminal ou prompt de comando;
-- Execute o projeto com o seguinte comando: python maximumFlow.py .
+- Execute o projeto com o seguinte comando: python maximumFlow.py;
+- Utilizando o código com os dados disponibilizados do trabalho, será gerado três imagens com os grafos resultantes. Cada um deles inclui as mesmas conexoes origem→cliente e antena→destino, uma vez que se referem aos mesmos dados. No entanto, cada grafo possui configuraçoes distintas nas conexões cliente→antena: a Figura 1 mostra todas as conexoes efetivas nas quais os clientes foram associados de forma manual, a Figura 2 abrange todas as possibilidades de conexão, e a Figura 3 representa o grafo resultante após a aplicação do algoritmo de fluxo máximo. Após a geração de cada imagem, é necessário fechá-la (é possível salvar a imagem antes de fechar), e as próximas serão geradas até a conclusão da execução do código.
 
 ### Execução no Google Colab:
 
